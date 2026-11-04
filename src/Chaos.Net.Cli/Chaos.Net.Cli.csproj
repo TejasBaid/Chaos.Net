@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ChaosNet.Cli</RootNamespace>
+    <AssemblyName>chaos</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Chaos.Net/Chaos.Net.csproj" />
+    <ProjectReference Include="../Chaos.Net.Xunit/Chaos.Net.Xunit.csproj" />
+    <ProjectReference Include="../../samples/Chaos.Net.Samples/Chaos.Net.Samples.csproj" />
+  </ItemGroup>
+</Project>

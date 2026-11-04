@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>ChaosNet.Xunit</RootNamespace>
+    <AssemblyName>Chaos.Net.Xunit</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Description>xUnit v2 integration for Chaos.Net: [ChaosFact] runs a test method under systematic concurrency testing.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit.core" Version="2.9.3" />
+    <PackageReference Include="xunit.extensibility.execution" Version="2.9.3" />
+    <PackageReference Include="xunit.assert" Version="2.9.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Chaos.Net/Chaos.Net.csproj" />
+  </ItemGroup>
+</Project>

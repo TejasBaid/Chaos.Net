@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>ChaosNet</RootNamespace>
+    <AssemblyName>Chaos.Net</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Description>Systematic concurrency testing for async .NET code: controlled scheduling, PCT/DFS/random exploration, deterministic replay.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Chaos.Net.Tests" />
+    <InternalsVisibleTo Include="Chaos.Net.Xunit" />
+  </ItemGroup>
+</Project>

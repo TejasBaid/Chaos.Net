@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>ChaosNet.Samples</RootNamespace>
+    <AssemblyName>Chaos.Net.Samples</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Chaos.Net/Chaos.Net.csproj" />
+    <!-- The analyzer guards the code under test against uncontrolled concurrency. -->
+    <ProjectReference Include="../../src/Chaos.Net.Analyzers/Chaos.Net.Analyzers.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+</Project>

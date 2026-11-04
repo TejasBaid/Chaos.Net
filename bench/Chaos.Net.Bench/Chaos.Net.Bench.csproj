@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ChaosNet.Bench</RootNamespace>
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <TieredPGO>true</TieredPGO>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Chaos.Net/Chaos.Net.csproj" />
+    <ProjectReference Include="../../samples/Chaos.Net.Samples/Chaos.Net.Samples.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Chaos.Net/Chaos.Net.csproj" />
+    <Project Path="src/Chaos.Net.Xunit/Chaos.Net.Xunit.csproj" />
+    <Project Path="src/Chaos.Net.Analyzers/Chaos.Net.Analyzers.csproj" />
+    <Project Path="src/Chaos.Net.Cli/Chaos.Net.Cli.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/Chaos.Net.Samples/Chaos.Net.Samples.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Chaos.Net.Tests/Chaos.Net.Tests.csproj" />
+  </Folder>
+  <Folder Name="/bench/">
+    <Project Path="bench/Chaos.Net.Bench/Chaos.Net.Bench.csproj" />
+  </Folder>
+</Solution>
